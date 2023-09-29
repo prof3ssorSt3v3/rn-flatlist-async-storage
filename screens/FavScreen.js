@@ -5,7 +5,7 @@ const FavScreen = () => {
   const insets = useSafeAreaInsets();
 
   return (
-    <View style={[styles.container, { paddingTop: insets.top }]}>
+    <View style={[styles.container, { paddingTop: 10 }]}>
       <Text>FavScreen</Text>
     </View>
   );
